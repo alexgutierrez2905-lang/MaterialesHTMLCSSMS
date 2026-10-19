@@ -1,0 +1,20 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif, sans-serif;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+.introduccion {
+    color: green;
+    font-size: 20px;
+}
+
+#mensaje {
+    color: white;
+    background-color: purple;
+    padding: 15px;
+}

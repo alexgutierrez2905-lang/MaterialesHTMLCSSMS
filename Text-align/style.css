@@ -30,6 +30,11 @@ h4 {
 .c { text-align: left; }
 .d { text-align: justify; }
 
+.a  { line-height: 20px; }
+.b { line-height: 3em; }
+.c { line-height: 25%; }
+
+
 p {
   margin: 0 0 18px;
   padding: 12px 14px;
