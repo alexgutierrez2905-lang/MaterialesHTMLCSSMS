@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Restaurante</title>
+</head>
+
+<body>
+
+    <h1>Cuenta del restaurante</h1>
+
+    <script>
+
+        let subtotal = 85.50;
+        let impuesto = 0.08;
+        let propinaBuenServicio = 0.15;
+        let propinaExcelenteServicio = 0.20;
+
+        let valorImpuesto = subtotal * impuesto;
+
+        let valorPropinaBuenServicio =
+            subtotal * propinaBuenServicio;
+
+        let valorPropinaExcelenteServicio =
+            subtotal * propinaExcelenteServicio;
+
+        let totalBuenServicio =
+            subtotal +
+            valorImpuesto +
+            valorPropinaBuenServicio;
+
+        let totalExcelenteServicio =
+            subtotal +
+            valorImpuesto +
+            valorPropinaExcelenteServicio;
+
+        console.log("Subtotal:", subtotal);
+        console.log("Impuesto:", valorImpuesto);
+
+        console.log(
+            "Propina por buen servicio:",
+            valorPropinaBuenServicio
+        );
+
+        console.log(
+            "Total con buen servicio:",
+            totalBuenServicio
+        );
+
+        console.log(
+            "Propina por excelente servicio:",
+            valorPropinaExcelenteServicio
+        );
+
+        console.log(
+            "Total con excelente servicio:",
+            totalExcelenteServicio
+        );
+
+    </script>
+
+</body>
+
+</html>
